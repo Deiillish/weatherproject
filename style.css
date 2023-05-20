@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@600&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100Vh;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+  
+    background-size: cover;
+
+}
+html{
+  font-family: 'PT Sans', sans-serif;  
+}
+#btn{
+    font-family: 'PT Sans', sans-serif;  
+    background-color: transparent;
+    border: 0;
+    padding-top: 50px;
+    color:  white;
+    font-size: 18px;
+    height: 44px;
+    width: 44px;
+    background-image: url(2866321.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    transition: 1s;
+    border-radius: 5px;
+}
+.container{
+    background-color: #1d1d1d97;
+    padding: 30px 30px;
+    border-radius: 35px;
+}
+#btn:hover{
+  box-shadow: 0px 0px 21px 3px rgba(245, 245, 245, 0.2);
+  background-color: rgba(245, 245, 245, 0.2);
+}
+#inp1{
+  font-family:'PT Sans', sans-serif ;
+  font-size: 18px;
+  height: 40px;
+  background-color: transparent;
+  outline: none;
+  border: 0.5px solid #ffffff76;
+  color: #fff;
+  transition: 1s;
+}
+#inp1:focus{
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  border: 0;
+  box-shadow: 0px 0px 21px 3px rgba(245, 245, 245, 0.2);
+}
+.result__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result__container p{
+  font-size: 18px;
+}
+.inp__container{
+  display: flex;
+  align-items: center;
+}
